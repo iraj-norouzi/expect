@@ -3,10 +3,4 @@ set timeout -1
 spawn /usr/bin/gateway  # actual command here
 expect "Enter passphrase for /root/.ssh/id_rsa: "
 send "kian@iranian\r"
-in#!/usr/bin/expect -f
-set timeout -1
-spawn /usr/bin/gateway  # actual command here
-expect "Enter passphrase for /root/.ssh/id_rsa: "
-send "kian@iranian\r"
 interact
-teract
